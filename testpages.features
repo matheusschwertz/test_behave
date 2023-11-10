@@ -1,0 +1,6 @@
+Feature: Testar o botão na página Key Click Display
+
+  Scenario: Clicar em um botão
+    Given que estou na página inicial Key Click Display
+    When eu clico no botão
+    Then o texto é exibido na página
